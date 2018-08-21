@@ -1,0 +1,125 @@
+---
+update_time: '2018.06.02'
+name: 王金
+nickname: wjeek
+meta_content: 两年前端经验
+keywords: 王金,前端,工作,简历
+ga_id: 'UA-92595311-1'
+age: 24
+gender: 男
+school: 大连理工大学
+profession: 软件工程
+grade: 大四
+english_level: CET-6
+blog: http://wjeek.top/
+github: https://www.github.com/wjeek
+website:
+online: https://wjeek.github.io/resume/
+apply_to_position: 前端工程师
+contact: # 联系方式
+  -
+    icon: fa-envelope
+    name: Email
+    value: 1248997541@qq.com
+  -
+    icon: fa-qq
+    name: QQ
+    value: '1248997541'
+  -
+    icon: fa-phone-square
+    name: PhoneNumber
+    value: '15698801382'
+honor: # 奖项荣誉
+tech: # 技能点
+  -
+    name: HTML/CSS
+    percentage: 70%
+  -
+    name: JavaScript
+    percentage: 75%
+  -
+    name: Node.js
+    percentage: 50%
+  -
+    name: Python
+    percentage: 30%
+  -
+    name: Git
+    percentage: 60%
+
+experience: # 项目经验
+  -
+    section: 个人项目
+    project:
+      -
+        name: 页面级缓存管理
+        des: !!md |
+          这个模块主要用来在node层做页面级缓存,包括了memory redis file 三个层次缓存 -- https://github.com/wjeek/cache-provider
+      -
+        name: 个人博客
+        des: !!md |
+          typecho框架在aliyun上搭建的基于php开发的静态博客 -- http://wjeek.top/
+  -
+    section: 工作经历
+    exper:
+      -
+        company: 达达京东到家 2017.8.2 - 2018
+        time: 2017.8 -
+        desc: 众包部门前端开发，后加入基础库开发
+        project:
+          -
+            name: 骑士app众包页面
+            img:
+            website:
+            source_code:
+            des: !!md |
+              独立完成达达骑手app侧边栏众包项目，基于vue2.x +vuex + vue-router开发，包含腾讯地图的api使用
+          -
+            name: 达达帮我买／达达用工小程序
+            img:
+            website:
+            source_code:
+            des: !!md |
+              独立完成小程序原生开发，负责编写部分通用组件和公共方法，编写gulp脚本实现npm打包
+          -
+            name: react-impression（github）
+            des: !!md |
+              负责组件库部分组件的优化，基于react 15.6过渡到16 迭代组件库 多人协作 掌握了更多git的黑科技 文档使用react styleguidist
+          -
+            name: 运营后台管理
+            des: !!md |
+              负责多系统集成的项目优化，加入权限模块，优化webpack懒加载，利用lerna管理公共模块
+      -
+        company: 上海西域科技 2016.7.1 - 2017.7
+        project:
+          -
+            des: !!md |
+              负责用户相关模块开发，基于angular1.x + express + handlebars + less 开发主交易网站
+          -
+            des: !!md |
+              负责了数据展示，权限设计和echarts模块等开发 react 15.6 + redux + antd 1.x saas服务
+          -
+            des: !!md |
+              m站开发 基于framework7 + angular
+
+skill: # 技能清单
+      -
+        des: !!md |
+          能够用 HTML + CSS 编写语义化的代码，使用Scss、CSS Modules 、jss等css处理方式完成较复杂的布局，
+      -
+        des: !!md |
+          熟悉大部分 ES6、7 的新语法，掌握react15/16和vue2.x基本使用
+      -
+        des: !!md |
+          有大型组件库开发经验，熟悉lerna等多包管理模式
+      -
+        des: !!md |
+          熟悉 Git Webpack3.x Gulp 等开发工具
+      -
+        des: !!md |
+          了解Node.js 熟悉 Koa、Express等框架的异同, 基于框架能搭建中型项目中间层
+      -
+        des: !!md |
+          有较强的学习能力和探索精神，如aliyun ecs上搭建web服务，利用typecho搭建博客
+
+
