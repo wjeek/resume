@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp",
     "build": "NODE_ENV=production gulp",
-    "public": "rm -rf dist && npm run build",
+    "public": "rm -rf resume && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

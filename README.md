@@ -5,8 +5,6 @@ Resume-it
 效果：https://wjeek.github.io/resume/
 如果喜欢的话请给个star ^_^
 
-![](./resume.png)
-
 Node version v8.2.1
 
 ## 风格参考
