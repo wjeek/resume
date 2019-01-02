@@ -68,6 +68,13 @@ experience: # 项目经验
         desc: 众包部门前端开发，后加入基础库开发
         project:
           -
+            name: 官网静态化
+            img:
+            website:
+            source_code:
+            des: !!md |
+              用Node搭建前端独立的静态资源服务。基于Egg开发，实现接口转发和静态资源托管
+          -
             name: 骑士app众包页面
             img:
             website:
@@ -84,7 +91,7 @@ experience: # 项目经验
           -
             name: react-impression（github）
             des: !!md |
-              负责组件库部分组件的优化，基于react 15.6过渡到16 迭代组件库 多人协作 掌握了更多git的黑科技 文档使用react styleguidist
+              负责公司内部组件库的优化，react16 + workspace + rollup + react styleguidist
           -
             name: 运营后台管理
             des: !!md |
@@ -108,16 +115,16 @@ skill: # 技能清单
           能够用 HTML + CSS 编写语义化的代码，使用Scss、CSS Modules 、jss等css处理方式完成较复杂的布局，
       -
         des: !!md |
-          熟悉大部分 ES6、7 的新语法，掌握react15/16和vue2.x基本使用
+          掌握大部分 ES6、7 的新语法，掌握react15/16和vue2.x基本使用
       -
         des: !!md |
           有大型组件库开发经验，熟悉lerna等多包管理模式
       -
         des: !!md |
-          熟悉 Git Webpack3.x Gulp 等开发工具
+          熟练使用Git， 配置Webpack > 2.x，Gulp 等开发工具，能编写简单的babel插件
       -
         des: !!md |
-          了解Node.js 熟悉 Koa、Express等框架的异同, 基于框架能搭建中型项目中间层
+          了解Node.js 熟悉 Koa、Express、Egg等框架的异同, 基于框架能搭建中型项目中间层
       -
         des: !!md |
           有较强的学习能力和探索精神，如aliyun ecs上搭建web服务，利用typecho搭建博客
