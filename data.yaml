@@ -52,50 +52,75 @@ experience: # 项目经验
     section: 个人项目
     project:
       -
-        name: 页面级缓存管理
-        des: !!md |
-          这个模块主要用来在node层做页面级缓存,包括了memory redis file 三个层次缓存 -- https://github.com/wjeek/cache-provider
-      -
         name: 个人博客
         des: !!md |
           typecho框架在aliyun上搭建的基于php开发的静态博客 -- http://wjeek.top/
+      -
+        name: 生成小程序canvas图片
+        des: !!md |
+          根据配置生成指定位置的文字、图片、矩形等元素的canvas -- https://github.com/wjeek/mp_canvas_painter
+      -
+        name: 年会抽奖
+        des: !!md |
+          炫酷的命令行效果 + 打字效果同时修改页面样式(vue) -- https://github.com/wjeek/annual-lottery
+      -
+        name: 页面级缓存管理
+        des: !!md |
+          这个模块主要用来在node层做页面级缓存,包括了memory redis file 三个层次缓存 -- https://github.com/wjeek/cache-provider
   -
     section: 工作经历
     exper:
       -
-        company: 达达京东到家 2017.8.2 - 2018
+        company: 达达京东到家 2017.8.2 - 2019
         time: 2017.8 -
-        desc: 众包部门前端开发，后加入基础库开发
+        desc: 先后在商城部，运营平台部，配送前端任前端工程师一职。负责过落地配项目h5、pc后台、小程序三端的核心研发
         project:
+          -
+            name: react-impression企业级组件库（github可搜）
+            des: !!md |
+              负责公司内部组件库的优化，主要参与了Modal、Select、TreeSelect等组件的编写
+              react16 + workspace + rollup + react styleguidist
+              react styleguidist使得文档和代码相结合，专注于组件开发，极大增加了开发效率；
+              workspace解决了多包依赖管理的问题；
+              组件库使得公司内部开发更加标准化，开发效率大大提升
+          -
+            name: 骑士webview开发
+            img:
+            website:
+            source_code:
+            des: !!md |
+              基于react16.7.0-alpha.2 + react-jss开发
+              使用Hook, Suspense, lazy, useEffect等新特性
+              尤其使用懒加载等方式极大优化了渲染速度和性能
           -
             name: 官网静态化
             img:
             website:
             source_code:
             des: !!md |
-              用Node搭建前端独立的静态资源服务。基于Egg开发，实现接口转发和静态资源托管
+              调研现有流行Nodejs框架(express koa egg)，独立完成用Node搭建前端的静态资源服务
+              基于Egg框架开发，实现接口转发和静态资源托管，加入jwt校验，csrf-token等防范措施
           -
             name: 骑士app众包页面
             img:
             website:
             source_code:
             des: !!md |
-              独立完成达达骑手app侧边栏众包项目，基于vue2.x +vuex + vue-router开发，包含腾讯地图的api使用
+              独立完成达达骑手app侧边栏众包项目
+              基于vue2.x +vuex + vue-router开发
+              基于公司内部组件库vue-impression开发
           -
-            name: 达达帮我买／达达用工小程序
+            name: 达达帮我买／达达用工／预约骑士任务小程序
             img:
             website:
             source_code:
             des: !!md |
-              独立完成小程序原生开发，负责编写部分通用组件和公共方法，编写gulp脚本实现npm打包
+              独立完成后两个小程序开发，参与帮我买小程序开发，前两个小程序负责编写部分通用组件和公共方法，编写gulp脚本实现npm打包
+              第三个小程序使用Taro + TaroUI + zoro开发，利用react编写方式，同时简化了状态管理的编写
           -
-            name: react-impression（github）
+            name: 大型后台项目(react)
             des: !!md |
-              负责公司内部组件库的优化，react16 + workspace + rollup + react styleguidist
-          -
-            name: 运营后台管理
-            des: !!md |
-              负责多系统集成的项目优化，加入权限模块，优化webpack懒加载，利用lerna管理公共模块
+              负责多系统集成的项目优化，加入权限模块，利用loadable + webpack懒加载，还有lerna管理公共模块，解决了一定的加载问题
       -
         company: 上海西域科技 2016.7.1 - 2017.7
         project:
@@ -112,16 +137,16 @@ experience: # 项目经验
 skill: # 技能清单
       -
         des: !!md |
-          能够用 HTML + CSS 编写语义化的代码，使用Scss、CSS Modules 、jss等css处理方式完成较复杂的布局，
+          熟练使用HTML、CSS、JavaScript等前端技术，完成网页静态布局，开发兼容主流浏览器的页面，以及实现页面的交互，提升用户体验
       -
         des: !!md |
-          掌握大部分 ES6、7 的新语法，掌握react15/16和vue2.x基本使用
+          掌握大部分 ES6、7 的新语法，掌握react15/16和vue2.x基本使用，熟悉部分react15的api的实现原理
       -
         des: !!md |
           有大型组件库开发经验，熟悉lerna等多包管理模式
       -
         des: !!md |
-          熟练使用Git， 配置Webpack > 2.x，Gulp 等开发工具，能编写简单的babel插件
+          熟练使用Git， 配置Webpack > 2.x，Gulp 等模块化工具，能编写简单的babel插件
       -
         des: !!md |
           了解Node.js 熟悉 Koa、Express、Egg等框架的异同, 基于框架能搭建中型项目中间层
