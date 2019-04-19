@@ -1,15 +1,15 @@
 ---
-update_time: '2018.06.02'
+update_time: '2019.03'
 name: 王金
 nickname: wjeek
-meta_content: 两年前端经验
+meta_content: 近三年前端经验
 keywords: 王金,前端,工作,简历
 ga_id: 'UA-92595311-1'
 age: 24岁
 gender: 男
 school: 大连理工大学
 profession: 软件工程
-grade: 大四
+grade: 本科
 english_level: CET-6
 blog: http://wjeek.top/
 github: https://www.github.com/wjeek
@@ -52,17 +52,18 @@ experience: # 项目经验
     section: 个人项目
     project:
       -
+        name: apm监控webpack插件
+        des: !!md |
+          兼容webpack3和4，上传sourcemap到apm后台
+          https://github.com/wjeek/elastic-apm-sourcemap-webpack-plugin
+      -
         name: 个人博客
         des: !!md |
           typecho框架在aliyun上搭建的基于php开发的静态博客 -- http://wjeek.top/
       -
         name: 年会抽奖
         des: !!md |
-          炫酷的命令行效果 + 打字效果同时修改页面样式(vue) -- https://github.com/wjeek/annual-lottery
-      -
-        name: 页面级缓存管理
-        des: !!md |
-          这个模块主要用来在node层做页面级缓存,包括了memory redis file 三个层次缓存 -- https://github.com/wjeek/cache-provider
+         模拟命令行操作 + 打字效果同时自动生成页面样式(vue) -- https://github.com/wjeek/annual-lottery
   -
     section: 工作经历
     exper:
@@ -95,7 +96,7 @@ experience: # 项目经验
             source_code:
             des: !!md |
               前端项目可用性和性能监控
-              介入了apm系统来进行针对性的二次开发。
+              介入了apm系统来进行针对性的二次开发。解决跨域脚本监控和异步错误监控
               编写webpack插件实现跨域属性监控和sourcemap文件上传
           -
             name: 官网静态化 Egg
@@ -104,16 +105,17 @@ experience: # 项目经验
             source_code:
             des: !!md |
               调研现有流行Nodejs框架(express koa egg)，独立完成用Node搭建前端的静态资源服务
-              基于Egg框架开发，实现接口转发和静态资源托管，加入jwt校验，csrf-token等防范措施
+              基于Egg框架开发，实现接口转发和静态资源托管，加入jwt验证，csrf-token等防范措施
           -
-            name: 骑士app众包页面 -- Vue2.5
+            name: 骑士app众包页面及关键渲染路径优化 -- Vue2.5
             img:
             website:
             source_code:
             des: !!md |
-              独立完成达达骑手app侧边栏众包项目
+              独立完成达达骑手app侧边栏众包项目，优化首页渲染速度
               基于vue2.x +vuex + vue-router开发
-              利用keep-alive优化了页面跳转的缓存
+              利用penthouse + loadCSS 编写gulp流处理，隔离首页样式
+              利用keep-alive实现步骤条填写表单缓存功能，优化了页面跳转的缓存；
           -
             name: 骑士小程序
             img:
@@ -144,7 +146,7 @@ experience: # 项目经验
 skill: # 技能清单
       -
         des: !!md |
-          了解浏览器渲染机制，包括html解析css解析，渲染层合并等流程，以及部分优化方式
+          了解浏览器渲染机制，包括html和css的加载解析，渲染层合并等流程，以及部分优化方式
       -
         des: !!md |
           掌握大部分 ES6、7 的新语法，掌握react15/16和vue2.x基本使用，了解react15的api的实现原理
